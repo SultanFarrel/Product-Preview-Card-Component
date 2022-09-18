@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- CSS Stylesheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+
+<body>
+  <div class="card mb-3 card-container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="images/image-product-desktop.jpg" class="img-fluid rounded-start img-desktop" alt="image-desktop-jpg">
+        <img src="images/image-product-mobile.jpg" class="img-fluid rounded-start img-mobile" alt="image-mobile-jpg">
+      </div>
+      <div class="col-lg-6">
+        <div class="card-body">
+          <h6 class="card-top">PERFUME</h6>
+          <h1 class="card-tittle">Gabrielle Essence Eau De Parfum</h1>
+          <p class="card-text">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 price-tag">
+                $149.99
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 price-before">
+                $169.99
+            </div>
+          </div>
+          <div class="d-grid gap-2">
+            <button type="button" class="btn btn-primary btn-lg button-cart">Add to Cart</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
